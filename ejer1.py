@@ -1,5 +1,5 @@
-usuario=mau
-contra=123
+usuario="mau"
+contra="123"
 if usuario=="mau" and contra=="123":
     print("Acceso concedido")
 else:
@@ -9,4 +9,3 @@ else:
     contra=input("Ingrese su contraseña: ")
     if usuario=="mau" and contra=="123":
         print("Acceso concedido")
-        
